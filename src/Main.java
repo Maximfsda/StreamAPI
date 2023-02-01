@@ -39,10 +39,7 @@ public class Main {
 
 
     public static void DemoStream() {
-        // Задача. Для любого набора случайно сгенерированных чисел
-        // нужно определить количество парных.
 
-        // 1. Создать поток данных из случайного массива чисел
         ArrayList<Integer> AL = new ArrayList<Integer>();
         int number;
         Random rnd = new Random();
