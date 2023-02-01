@@ -7,6 +7,7 @@ import java.util.stream.Stream;
 
 
 public class Main {
+    // Задание 1
 
     public static <T> void findMinMax(
             Stream<? extends T> stream,
@@ -32,7 +33,7 @@ public class Main {
         );
 
         stream.close();
-
+        // Задание 2
         DemoStream();
     }
 
